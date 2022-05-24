@@ -1,9 +1,9 @@
 function inserir(num){
     var numero = document.getElementById('resultado').innerHTML
-    if(numero.length < 7){
+    if(numero.length < 9){
     document.getElementById('resultado').innerHTML = numero + num
     }
-    else if(num == '+' || num == '-' || num == '*' || num == '/' ){
+    else{
     document.getElementById('resultado').innerHTML = num
     }
 }
