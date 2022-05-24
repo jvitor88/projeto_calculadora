@@ -1,6 +1,6 @@
 function inserir(num){
     var numero = document.getElementById('resultado').innerHTML
-    if(numero.length < 9){
+    if(numero.length < 7){
     document.getElementById('resultado').innerHTML = numero + num
     }
     else if(num == '+' || num == '-' || num == '*' || num == '/' ){
