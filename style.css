@@ -29,12 +29,13 @@ td#igual:hover{
   background-color: rgb(240, 164, 71);
 }
 #resultado{
+  display: block;
   background-color: rgb(78, 78, 78);
   border: 8px solid rgba(0, 0, 0, 0.1);
   color: white;
-  width: 377px;
+  width: 378px;
   height: 100px;
-  margin-top: 50px;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
   text-align: right;
