@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+  background-color: black
+}
+table{
+  background-color: rgb(78, 78, 78);
+  border: 5px solid black;
+  border-collapse: collapse;
+  font-family: 'Righteous', cursive;
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+td{
+  background-color: rgb(78, 78, 78);
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  padding: 20px;
+}
+td:hover{
+  background-color: darkgrey;
+}
+td#igual{
+  background-color: darkorange;
+}
+td#igual:hover{
+  background-color: rgb(240, 164, 71);
+}
+#resultado{
+  background-color: rgb(78, 78, 78);
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 377px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  font-size: 80px;
+}
