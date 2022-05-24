@@ -11,10 +11,11 @@
 table{
   border-collapse: collapse;
   font-family: 'Righteous', cursive;
-  font-size: 60px;
+  font-size: 70px;
   margin-left: 20px;
   margin-top: 10px;
   text-align: center;
+  width: 340px;
 }
 td{
   background-color: rgb(78, 78, 78);
