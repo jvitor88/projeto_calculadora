@@ -9,36 +9,37 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <table>
-        <tr>
-          <td id="resultado" colspan="4"></td></tr>
-        <tr>
-          <td colspan="2" id="limpar" onclick="limpar()">C</td>
-          <td colspan="2" id="igual" onclick="calcular()">=</td>
-        </tr>
+  <table>
+    <tr>
+      <td id="resultado" colspan="4"></td></tr>
+      <tr>
+        <td colspan="1" id="limpar" onclick="limpar()">C</td>
+        <td colspan="1" id="limpar" onclick="apagar()"><</td>
+        <td colspan="2" id="igual" onclick="calcular()">=</td>
+      </tr>
         <tr>
           <td onclick="inserir('7')">7</td>
           <td onclick="inserir('8')">8</td>
           <td onclick="inserir('9')">9</td>
-          <td onclick="inserir('+')">+</td>    
+          <td onclick="inserir('+')" class="operador">+</td>    
         </tr>
         <tr>
           <td onclick="inserir('4')">4</td>
           <td onclick="inserir('5')">5</td>
           <td onclick="inserir('6')">6</td>
-          <td onclick="inserir('-')">-</td>
+          <td onclick="inserir('-')" class="operador">-</td>
         </tr>
         <tr>
           <td onclick="inserir('1')">1</td>
           <td onclick="inserir('2')">2</td>
           <td onclick="inserir('3')">3</td>
-          <td onclick="inserir('*')">x</td>  
+          <td onclick="inserir('*')" class="operador">x</td>  
         </tr>
         <tr>
           <td onclick="inserir('#')">#</td>
           <td onclick="inserir('0')">0</td>
           <td onclick="inserir('.')">.</td>
-          <td onclick="inserir('/')">/</td>
+          <td onclick="inserir('/')" class="operador">/</td>
         </tr>
       </table>
       <h2>Desenvolvido por <a href="https://github.com/jvitor88" target="_blank">José Vitor Silveira</a></h2>
